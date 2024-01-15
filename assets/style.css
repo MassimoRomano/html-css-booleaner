@@ -1,22 +1,25 @@
 body{
-    margin: 0;
+    margin:0px;
+    box-sizing: border-box;
+    
+
 }
 
-.testata{
-    background-color: #4ea0ff;
-    background-size: ;
-     }
+header{
+    background-image: url(./img/pattern.png);
+    background-color: rgb(63, 129, 255);
+}
 
-
-#titolo{
-
+.logo{
+    padding: 45px;
+    width: 300px;
 }
 
 .first{
-    color: #808080;
+    color: #838383;
 }
 
 .second{
-    color: #36B1E7;
-
+    color: #2DAEE6;
 }
+
