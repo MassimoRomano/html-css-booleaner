@@ -1,38 +1,42 @@
-body {
-    box-sizing: border-box;
-    margin: 0;
-    width: 100%;
+body{
+    box-sizing: content-box;
     height: 100%;
-
+    width: 100%;
+    margin: 0px;
 }
 
-header {
+#background{
     background-image: url(./img/pattern.png);
+    height: 170px;
+    width: 100%;
     background-color: rgb(63, 129, 255);
-
 }
 
-.logo {
-    padding: 45px;
-    width: 300px;
+.logo{
+    height: 50px;
+    padding-top: 120px;
 }
 
-main {
-    padding: 10px;
-}
+/* titolo piu' foto */
 
-p {
+.color_1{
+    color:#838383 ;
+    font-weight: bold;
+}
+.color_2{
+    color: #2DAEE6;
     font-weight: bold;
 }
 
-/* scritto */
-
-.first {
-    color: #838383;
+div{
+    font-weight: bold;
 }
 
-.second {
-    color: #2DAEE6;
+/* ista */
+
+ul{
+    padding-left: 10px;       
+    margin-left: 10px;
 }
 
 /* tabella */
@@ -42,29 +46,32 @@ table {
     border-collapse: collapse;
 }
 
-td,
-th {
-    padding: 20px;
+td
+ {
+    padding: 0px;
+    padding-right: 100px;
+    line-height: 70px;
     text-align: left;
-
 }
 
 
-thead {
-    background-color: #20A9E5;
+th {
+    background-color: #35b2e7;
+    line-height: 30px;
+    text-align: left;
 }
 
-.color {
-    background-color: #B1E5F2;
+.color_3{
+    background-color: #a5dcf3;
 }
 
 /* footer */
 
-.finish {
+.color_4{
     font-weight: bolder;
     color: #838383;
+    margin-left: 5px;
 }
-
 .container_1 {
     margin: 0px;
     background-image: url(./img/monitor.jpg);
@@ -74,11 +81,12 @@ thead {
     font-weight: normal;
     line-height: 50px;
     text-align: center;
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
 }
 
-.container_2 {
+.container_2{
     margin: 0px;
     background-image: url(./img/graph.jpg);
     background-repeat: no-repeat;
@@ -87,6 +95,8 @@ thead {
     font-weight: normal;
     line-height: 50px;
     text-align: center;
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
+    margin-left: 5px;
+    margin-bottom: 10px;
 }
